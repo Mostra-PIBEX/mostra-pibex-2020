@@ -1,0 +1,40 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+header jumbotron {
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: #9bd1d1;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-weight: 600;
+}
+
+.line-break {
+    line-height: 0
+}
+
+.border-light {
+    border-color: #ffff !important;
+}
+
+.video-play-trigger img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5)
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+.card-body h5 {
+    font-size: 1rem;
+    color: #666c75;
+    font-weight: 500;
+    line-height: 24px;
+}
