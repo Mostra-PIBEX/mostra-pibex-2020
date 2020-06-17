@@ -2,12 +2,15 @@
 
   'use strict';
 
-
   var $projects = $('.projects');
 
   $projects.isotope({
     itemSelector: '.item',
     layoutMode: 'fitRows'
+  });
+
+  $projects.imagesLoaded().progress( function() {
+    $projects.isotope('layout');
   });
 
   $('ul.filters > li').on('click', function (e) {
